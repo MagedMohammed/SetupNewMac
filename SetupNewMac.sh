@@ -1,7 +1,7 @@
 #!/bin/bash
 # ☕☕☕☕
  ☕ 💪 🕛  🔥
-echo "Welcome to my script"
+echo "${bold}Welcome to my script"
 echo -e "now download CocoaPods 💻 \a"
 read -p "Please enter your work email: " email
 # insall Homebrew
@@ -24,5 +24,9 @@ brew cask install visual-studio-code
 brew cask install atom
 # git
 brew install git
-
-
+# vlc
+brew cask install vlc
+#  gitkrakin
+brew cask install GitKraken
+# sourcetree
+brew cask install sourcetree
